@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import './App.css'
+import Card from './components/card';
 
 function App() {
   let [counter, setCounter] = useState(15);
@@ -28,6 +29,8 @@ function App() {
 
   return (
     <>
+       <Card userName= "Amir Ali Amin"/>
+       <Card userName = "Minhal Fatima"/>
       <h1>Amir Ali Amin</h1>
       <h2>Counter is :{counter} </h2>
       <br />
