@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import './App.css'
 import Card from './components/card';
+import PasswordGenerator from './components/passwordGenerator';
 
 function App() {
   let [counter, setCounter] = useState(15);
@@ -36,6 +37,9 @@ function App() {
       <br />
       <button style={{backgroundColor:"black", color:"white", marginRight:"20px"}} onClick={setValue} >Add Value</button>
       <button style={{backgroundColor:"black", color:"white"}} onClick={removeValue}>Remove Value</button>
+      <div>
+        <PasswordGenerator/>
+      </div>
     </>
   )
 }
