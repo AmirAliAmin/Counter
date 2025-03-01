@@ -23,7 +23,6 @@ function App() {
     }
     else{
       setCounter(counter - 1);
-  
     }
   }
   
